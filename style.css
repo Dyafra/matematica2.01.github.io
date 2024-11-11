@@ -16,14 +16,14 @@ body{
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
-    "professores horario avisos"
+    "professores horario aviso"
     "professores horario ."
     "alunos . .";
 }
 
 .alunos { grid-area: alunos; }
 
-.avisos { grid-area: avisos; }
+.aviso { grid-area: aviso; }
 
 .horario { grid-area: horario; }
 
