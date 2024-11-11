@@ -1,6 +1,6 @@
 /* Visto - apague este comentário depois */
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
-
+background-color: var(--cachorro);
 body{
   font-family: "Nerko One"
 }
@@ -10,6 +10,21 @@ body{
 }
 
 
+ .Tudo {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.8fr 0.6fr 1.6fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "professores horario avisos"
+    "professores horario ."
+    "alunos . .";
+}
 
+.alunos { grid-area: alunos; }
 
+.avisos { grid-area: avisos; }
 
+.horario { grid-area: horario; }
+
+.professores { grid-area: professores; }
