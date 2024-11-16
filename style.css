@@ -1,18 +1,17 @@
 /* Visto - apague este comentário depois */
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
 
-
-body{
-  background-color: var(--cachorro);
-  font-family: "Nerko One"
-}
 :root {
   --cachorro: #4682B4;
   --lagartixa: #1D3461;
 }
 
+body{
+  background-color: var(--cachorro);
+  font-family: "Nerko One"
+}
 
- .Tudo {  display: grid;
+ .tudo {  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.8fr 0.6fr 1.6fr;
   gap: 0px 0px;
